@@ -1,0 +1,249 @@
+/* CSS header */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url(/meu_site/img/background-night.jpg);
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.itens-bar {
+    display: flex;
+    padding: 10px 20px 0 0;
+    justify-content: flex-end;
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+}
+
+.itens-bar a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.itens-bar a:hover {
+    color: rgba(211, 211, 211, 0.671);
+    transition: 0.5s;
+}
+
+.bloco-inicial {
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-principal {
+    letter-spacing: 8px;
+    color: white;
+    position: absolute;
+    user-select: none;
+}
+
+.texto-principal h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.texto-principal p {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* CSS main */
+
+main {
+    background-color: black
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+#sobre {
+    min-height: 450px;
+    color: white;
+}
+
+#sobre h2 {
+    font-size: 40px;
+    padding: 40px 0 20px 40px;
+    font-weight: bold;
+}
+
+#sobre p {
+    margin-left: 40px;
+    font-size: 18px;
+    max-width: 60%;
+    line-height: 28px;
+}
+
+.study-icon {
+    width: 40px;
+    height: 40px;
+}
+
+#sobre img{
+    float:right;
+    width: 20%;
+    height: 20%;
+    margin-right: 20px;
+}
+
+/* SVG */
+
+#Capa_1{
+    float: right;
+    margin-top: 120px;
+    margin-right: 140px;
+    width: 200px;
+    height: 200px;
+    animation-iteration-count: infinite;
+}
+
+ @-webkit-keyframes animate-svg-fill-1 {
+     
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
+  
+  @keyframes animate-svg-fill-1 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: white;
+
+    }
+  }
+  
+  .svg-elem-1 {
+    -webkit-animation: animate-svg-fill-1 2s ease-in 1.7s both;
+            animation: animate-svg-fill-1 2s ease-in 1.7s both;
+            animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-2 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
+  
+  @keyframes animate-svg-fill-2 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
+  
+  .svg-elem-2 {
+    -webkit-animation: animate-svg-fill-2 2s ease-in 1.8s both;
+            animation: animate-svg-fill-2 2s ease-in 1.8s both;
+            animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-3 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
+  
+  @keyframes animate-svg-fill-3 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
+  
+  .svg-elem-3 {
+    -webkit-animation: animate-svg-fill-3 2s ease-in 1.9s both;
+            animation: animate-svg-fill-3 2s ease-in 1.9s both;
+            animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-4 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
+  
+  @keyframes animate-svg-fill-4 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
+  
+  .svg-elem-4 {
+    -webkit-animation: animate-svg-fill-4 2s ease-in 2s both;
+            animation: animate-svg-fill-4 2s ease-in 2s both;
+            animation-iteration-count: infinite;
+  }
+  
+
+/* CSS contato */
+
+footer {
+    background-color: black;
+    height: 300px;
+}
+
+#contato {
+    color: white;
+}
+#contato h2{
+    padding: 40px 0 40px 40px;
+    font-size: 30px;
+}
+#contato p{
+    margin-left: 40px;
+    font-size: 18px;
+}
+#contato ul{
+    padding: 40px;
+    display: flex;
+}
+
+.itens-social{
+    margin-right: 40px;
+    font-size: 3em;
+    color: white;
+
+
+}
